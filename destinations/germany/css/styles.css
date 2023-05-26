@@ -1,0 +1,23 @@
+* {
+    border: solid 1px redr;
+}
+
+.germany-flag {
+    height: 100px;
+    width: 2000px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.marienplatz {
+    height: auto;
+    width: 500px;
+}
+
+.marienplatz-alt {
+    font-size: xx-small;
+}
