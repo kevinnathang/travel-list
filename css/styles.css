@@ -3,10 +3,10 @@
     font-size: 60px;
 }
 
-img {
-    height: auto;
-    width: 700px;
-    box-align: center;
+.plane-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .germany {
