@@ -1,15 +1,37 @@
+body {
+    background-image: url(../images/plane-clouds.jpg);
+    background-size: cover;
+}
+
 .heading {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex: 1;
+    color: rgb(28, 139, 28);
+    background-color: rgb(255, 255, 255);
+    border-style: groove;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: auto;
+    margin-bottom: auto;
+}   
+    
+.company-title {    
     font-size: 60px;
+    font-style: italic;
 }
 
-.plane-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.germany {
-    text-align: center;
+.company-sub-title {
     font-size: 30px;
 }
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.germany 
