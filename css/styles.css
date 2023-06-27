@@ -11,7 +11,9 @@ body {
     flex: 1;
     color: rgb(28, 139, 28);
     background-color: rgb(255, 255, 255);
-    border-style: groove;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
     margin-left: 600px;
     margin-right: 600px;
     padding: auto;
@@ -21,17 +23,31 @@ body {
 .company-title {    
     font-size: 60px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .company-sub-title {
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.destinations-table {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-top: 40px;
 }
 
 .destinations {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    font-size: 30px;
 }
 
-.germany 
+.germany {
+    font-size: 20px;
+}
