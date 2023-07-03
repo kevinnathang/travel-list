@@ -25,17 +25,22 @@ img {
     font-size: 100px;
 }
 
+.container-1 {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.container-1-child {
+    flex: 3.5;
+}
+
 .country-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
     background-color: white;
     border-color: black;
     border-width: 5px;
     border-radius: 20px;
-    margin-right: 70%;
-    margin-left: 4%;
+    margin-right: 5%;
+    margin-left: 5%;
     padding: 10px;
 }
 
@@ -46,4 +51,9 @@ img {
 
 .country-description {
     font-size: 20px;
+}
+
+.marienplatz {
+    margin-right: 5%;
+    flex: 2;
 }
